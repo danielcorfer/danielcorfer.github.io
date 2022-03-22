@@ -1,0 +1,82 @@
+body{
+    background-image: url(assets/topography.png);
+    font-family: Courier;
+}
+.container{
+width: 90%;
+margin: 0 auto;
+
+}
+header{
+    background: #333333;
+    color: #ff0099;
+    margin: -10px;
+    height: 45px;
+    
+
+       
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo{
+    float: left;
+    margin: 7px;
+    
+    
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+
+}
+
+nav li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    margin: 15px;
+    text-transform: uppercase;
+
+}
+
+#wiki{
+    font-size: 40px;
+    text-align: center;
+}
+a {
+    color: #ff0099;
+}
+
+h1{
+    font-size: 40px;
+    padding: 10% 10% 0% 10%;
+}
+
+h2 {
+    padding: 0% 10% 0% 10%;
+    color: #ff0099;
+}
+
+p {
+    padding: 0% 10% 0% 10%; 
+   
+}
+hr {
+    border-top: 3px solid #bbb;
+    
+  }
+h3 {
+    text-align: center;
+    font-size: 35px;;
+}
